@@ -40,9 +40,9 @@ Resources:
             yum install -y httpd
             cd /var/www/html
             wget https://github.com/Damola12345/HTML-Website/archive/refs/heads/master.zip
-            unzip main.zip
-            cp -r techmax-main/* /var/www/html/
-            rm -rf techmax-main main.zip
+            unzip master.zip
+            cp -r HTML-Website-master/* /var/www/html/
+            rm -rf HTML-Website-master master.zip
             systemctl enable httpd 
             systemctl start httpd
 
